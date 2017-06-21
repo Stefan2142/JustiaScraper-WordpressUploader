@@ -1,10 +1,4 @@
-from lxml import html
-from lxml import etree
-from lxml.html import fromstring
-import xlsxwriter
-import requests
 import time
-import lxml.html
 from bs4 import BeautifulSoup
 import urllib2
 import re
@@ -15,7 +9,6 @@ from wordpress_xmlrpc import WordPressPage
 from wordpress_xmlrpc.methods import taxonomies
 from wordpress_xmlrpc.methods import posts
 from socket import error as SocketError
-import errno
 
 
 def connect(url):
